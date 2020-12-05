@@ -12,3 +12,12 @@ Logging to the file system will be automatically reset to Off after 12 hours.
 Saving to blob storage is not available for Linux app logs.
 When logging to blob storage, you must also set a Retention Period. Unlike the file system logs, blob logs are never deleted by default
 
+Log Streaming Service:
+To use live logging, you connect to the live log service from the command line, and can then see text being written to the app's logs in real time.
+The live log stream connects to only one app instance, so is not useful if you have a multi-instance app.
+az webapp log tail --name <app name> --resource-group <resource group name>
+
+Windows app log files location -  D:\Home, and includes a LogFiles folder; within this folder are one or more subfolders
+
+Linux app log files - messages are stored in Docker log files.you will need to open an SSH connection to the Docker container.
+
