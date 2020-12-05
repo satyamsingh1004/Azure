@@ -1,1 +1,14 @@
 
+ASP.NET - To log information to the app diagnostics log, use the System.Diagnostics.Trace class
+
+ASP.NET Core apps - To log information to Azure app logs, use the logger factory class
+For ASP.NET Core apps on Linux, only "error" messages (levels 4 and 5) are logged.
+
+Node.js apps - app logging is enabled using the console() method
+
+In the portal, app logging is managed from the Diagnostics logs pane of the web app.
+Logging to the file system will be automatically reset to Off after 12 hours.
+
+Saving to blob storage is not available for Linux app logs.
+When logging to blob storage, you must also set a Retention Period. Unlike the file system logs, blob logs are never deleted by default
+
