@@ -21,3 +21,11 @@ Windows app log files location -  D:\Home, and includes a LogFiles folder; withi
 
 Linux app log files - messages are stored in Docker log files.you will need to open an SSH connection to the Docker container.
 
+Every subscription is associated with an Azure Active Directory tenant.
+
+You can apply locks to a subscription, a resource group, or an individual resource. You can set the lock level to CanNotDelete or ReadOnly.
+To make the protection process more robust, you can combine resource locks with Azure Blueprints. 
+you can define a blueprint that specifies that a certain resource lock must exist. Azure Blueprints can automatically replace the resource lock if that lock is removed.
+
+
+
