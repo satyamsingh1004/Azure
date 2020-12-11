@@ -27,5 +27,18 @@ You can apply locks to a subscription, a resource group, or an individual resour
 To make the protection process more robust, you can combine resource locks with Azure Blueprints. 
 you can define a blueprint that specifies that a certain resource lock must exist. Azure Blueprints can automatically replace the resource lock if that lock is removed.
 
+You can use Azure Policy to ensure that a resource inherits the same tags as its parent resource group. 
+
+Initiatives - group of related policies
+
+stock-keeping unit (SKU)
+
+Azure Policy also evaluates any current resources in your environment.
+
+Policy assignments are inherited by all child resources within that scope.
+you can assign a policy to a management group, a single subscription, or a resource group.
+
+
+
 
 
