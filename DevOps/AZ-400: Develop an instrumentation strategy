@@ -1,5 +1,6 @@
 
  DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications.
+ Azure Boards is a part of Azure DevOps that helps teams plan and track work.
 
 ASP.NET - To log information to the app diagnostics log, use the System.Diagnostics.Trace class
 
