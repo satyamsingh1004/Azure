@@ -38,6 +38,9 @@ Azure Policy also evaluates any current resources in your environment.
 Policy assignments are inherited by all child resources within that scope.
 you can assign a policy to a management group, a single subscription, or a resource group.
 
+In an Azure SQL Database implementation, you could share the load across database instances by sharding. 
+Sharding is a technique to distribute large amounts of identically structured data across a number of independent databases.
+
 
 
 
