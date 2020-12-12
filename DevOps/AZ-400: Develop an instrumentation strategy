@@ -1,4 +1,6 @@
 
+ DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications.
+
 ASP.NET - To log information to the app diagnostics log, use the System.Diagnostics.Trace class
 
 ASP.NET Core apps - To log information to Azure app logs, use the logger factory class
@@ -40,6 +42,23 @@ you can assign a policy to a management group, a single subscription, or a resou
 
 In an Azure SQL Database implementation, you could share the load across database instances by sharding. 
 Sharding is a technique to distribute large amounts of identically structured data across a number of independent databases.
+
+Throttling - mechanism to limit the number of requests from a source. 
+Throttling is most frequently used in applications that expose API endpoints.
+
+Containers are lightweight and well suited to scale-out scenarios.
+
+Azure SQL Database geo-replication allows for read-replicas
+Azure SQL Data Sync
+
+Content delivery networks can also be used to host cached dynamic content. (TTL)
+One way to handle cached content is with a feature called dynamic site acceleration
+
+Standard storage HDD: A dev/test workload where guaranteed performance isn't required is a great use case for this disk type
+
+Polyglot persistence is the use of different data storage technologies to handle your storage requirements.
+
+web apps built with the Web Apps feature of Azure App Service output compute and application request metrics.
 
 
 
