@@ -1,6 +1,8 @@
 
  DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications.
  Azure Boards is a part of Azure DevOps that helps teams plan and track work.
+ Azure Pipelines is a cloud service that you can use to automatically build and test your code project 
+ GitHub Actions can also be used to build CI/CD capabilities in your GitHub repositories.
 
 ASP.NET - To log information to the app diagnostics log, use the System.Diagnostics.Trace class
 
@@ -61,7 +63,6 @@ Polyglot persistence is the use of different data storage technologies to handle
 
 web apps built with the Web Apps feature of Azure App Service output compute and application request metrics.
 
-
-
+Each service is typically responsible for its own data. Its data structure is isolated,
 
 
