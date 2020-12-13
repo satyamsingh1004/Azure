@@ -63,6 +63,10 @@ Polyglot persistence is the use of different data storage technologies to handle
 
 web apps built with the Web Apps feature of Azure App Service output compute and application request metrics.
 
-Each service is typically responsible for its own data. Its data structure is isolated,
+Each service is typically responsible for its own data. Its data structure is isolated
+
+Activity Log data is only retained for 90 days
+
+Log Analytics can send alerts, kick off automation, and even hook into custom APIs for things like integration with IT service management (ITSM).
 
 
