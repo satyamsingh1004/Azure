@@ -69,4 +69,6 @@ Activity Log data is only retained for 90 days
 
 Log Analytics can send alerts, kick off automation, and even hook into custom APIs for things like integration with IT service management (ITSM).
 
+Azure DevTest Labs
+
 
