@@ -71,4 +71,8 @@ Log Analytics can send alerts, kick off automation, and even hook into custom AP
 
 Azure DevTest Labs
 
+the deployment slot functionality in the Azure App Service allows you to have two different versions of the same application running at the same time, and you can redirect your users to one version or the other.
+
+
+
 
