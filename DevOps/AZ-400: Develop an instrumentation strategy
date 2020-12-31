@@ -1,5 +1,5 @@
 
- DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications.
+-- DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications.
  Azure Boards is a part of Azure DevOps that helps teams plan and track work.
  Azure Pipelines is a cloud service that you can use to automatically build and test your code project 
  GitHub Actions can also be used to build CI/CD capabilities in your GitHub repositories.
