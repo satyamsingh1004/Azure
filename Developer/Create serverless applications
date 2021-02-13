@@ -12,4 +12,17 @@ This kind of policy can't be configured in an Azure Function.
 There are two kinds of WebJob:Continuous & Triggered
 Azure Functions:
 
+Drawbacks of a serverless compute solution:
+Execution time:
+By default, functions have a timeout of 5 minutes. This timeout is configurable to a maximum of 10 minutes. 
+If your function requires more than 10 minutes to execute, you can host it on a VM. 
+Additionally, if your service is initiated through an HTTP request and you expect that value as an HTTP response, the timeout is further restricted to 2.5 minutes. 
+Finally, there's also an option called Durable Functions that allows you to orchestrate the executions of multiple functions without any timeout.
+Execution frequency:
+
+Functions are hosted in an execution context called a function app.
+
+
+
+
 
