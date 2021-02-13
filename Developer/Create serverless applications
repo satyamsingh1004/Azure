@@ -1,1 +1,15 @@
 
+Design-first technologies:
+Logic Apps
+Microsoft Power Automate:Under the hood, Microsoft Power Automate is built on Logic Apps. 
+This fact means that Power Automate supports the same range of connectors and actions. You can also use custom connectors in Microsoft Power Automate.
+
+Code-first technologies:
+WebJobs and the WebJobs SDK:
+You have specific customizations that you want to make to the JobHost that are not supported by Azure Functions.
+For example, in a WebJob, you can create a custom retry policy for calls to external systems. 
+This kind of policy can't be configured in an Azure Function.
+There are two kinds of WebJob:Continuous & Triggered
+Azure Functions:
+
+
