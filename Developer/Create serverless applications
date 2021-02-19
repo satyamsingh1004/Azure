@@ -27,6 +27,8 @@ Function
 Anonymous
 Admin
 
+If your Authorization level is set to Function, you can use either a function or a host key. If your Authorization level is set to Admin, you must supply a host key.
+
 
 
 
