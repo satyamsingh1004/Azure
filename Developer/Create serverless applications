@@ -22,6 +22,11 @@ Execution frequency:
 
 Functions are hosted in an execution context called a function app.
 
+There are three Authorization levels:
+Function
+Anonymous
+Admin
+
 
 
 
