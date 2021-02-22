@@ -35,6 +35,9 @@ Finally, page blobs are made up of pages and are designed for frequent random re
 
 function's configuration file - function.json
 
+To be done-
+HTTP Output binding
+
 
 
 
