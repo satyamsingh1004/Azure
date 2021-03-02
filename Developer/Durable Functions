@@ -1,1 +1,17 @@
 Durable Functions - a long-running serverless workflow
+
+Durable Functions is an extension of Azure Functions that enables you to perform long-lasting, stateful operations in Azure
+
+Durable Functions is an extension of Azure Functions. Whereas Azure Functions operate in a stateless environment, Durable Functions can retain state between function calls.
+
+Durable Functions scales as needed.
+
+orchestration function
+
+You can use three durable function types: Client, Orchestrator, and Activity.
+
+You create a durable timer by calling the createTimer() method of the DurableOrchestrationContext
+
+You should always use currentUtcDateTime to obtain the current date and time, instead of Date.now or Date.UTC.
+
+
