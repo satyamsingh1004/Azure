@@ -37,7 +37,8 @@ function's configuration file - function.json
 
 You can't combine functions from multiple projects into one app by publishing them in sequence - all of the functions you want in the app must be in one project.
 
-
+API Management handles all the tasks involved in mediating API calls, including request authentication and authorization, rate limit and quota enforcement, 
+request and response transformation, logging and tracing, and API version management. 
 
 
 
