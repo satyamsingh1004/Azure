@@ -1,1 +1,56 @@
+For Message Based System -
+Azure Queue Storage
+Azure Service Bus
+
+For Event Based System -
+Azure Event Grid
+Azure Event Hub
+
+Queues can contain millions of messages, limited only by the capacity of the storage account that owns it.
+
+Internally, topics use queues. When you post to a topic, the message is copied and dropped into the queue for each subscription. 
+
+Use Service Bus topics if you:
+Need multiple receivers to handle each message
+
+Use Service Bus queues if you:
+Need an At-Most-Once delivery guarantee.
+Need a FIFO guarantee.
+Need to group messages into transactions.
+Want to receive messages without polling the queue.
+Need to provide a role-based access model to the queues.
+Need to handle messages larger than 64 KB but less than 256 KB.
+Queue size will not grow larger than 80 GB.
+Want to publish and consume batches of messages.
+
+Use Queue storage if you:
+Need an audit trail of all messages that pass through the queue.
+Expect the queue to exceed 80 GB in size.
+Want to track progress for processing a message inside of the queue.
+
+Azure Event Grid is a fully-managed event routing service running on top of Azure Service Fabric
+
+Event Grid use topics to decide which events to send to which handlers. 
+Events sources tag each event with one or more topics, and event handlers subscribe to the topics they are interested in.
+
+Topics are divided into system topics, and custom topics.
+
+Event Subscriptions define which events on a topic an event handler wants to receive. A subscription can also filter events by their type or subject, so you can ensure an event handler only receives relevant events.
+
+Event Grid will efficiently notify each interested subscriber when a new event is available - no polling required.
+
+Event Grid retries event delivery for up to 24 hours for each subscription.
+
+Event Hub - it is optimized for extremely high throughput, a large number of publishers, security, and resiliency.
+It can prcess millions of events per second
+As Event Hubs receives communications, it divides them into partitions. 
+By default, events stay in the buffer for 24 hours before they automatically expire.
+Every event hub has at least two partitions.
+All publishers are authenticated and issued a token.
+
+
+
+
+
+
 
