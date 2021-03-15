@@ -5,6 +5,7 @@ use Client library
 Security
 Access keys 
 Shared Access Signature
+RBAC
 
 cross-origin resource sharing (CORS)
 
