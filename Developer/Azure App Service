@@ -1,2 +1,7 @@
 Azure App Service is a fully managed web application hosting platform. PaaS
 
+Deployment Slots are live Apps with their own host names
+App content and configuration can be swapped between 2 deployment slots
+
+
+
