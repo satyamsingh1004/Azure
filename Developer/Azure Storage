@@ -3,11 +3,29 @@ a REST API to work with the containers and data stored in each account.
 use Client library
 
 Security
-Access keys 
-Shared Access Signature
-RBAC
+RBAC - best for blobs & queues
+Access keys - for in-house trusted applications
+Shared Access Signature - For untrusted clients, use a shared access signature (SAS).
+Types of shared access signatures:
+ a service-level SAS 
+ an account-level SAS
+ 
+ Authorization is supported by a public preview of Azure Active Directory credentials (for blobs and queues), 
+ a valid account access key, or a shared access signature (SAS) token.
+ 
+ Control network access to your storage account:
+ By default, storage accounts accept connections from clients on any network. 
+ You can restrict access to specific IP addresses, ranges, or virtual networks.
+ 
+ Azure Storage Account > Networking > All Networks | Selected Networks
+ 
+ Azure Defender for Storage
+ Azure Defender for Storage is currently available for Blob storage, Azure Files, and Azure Data Lake Storage Gen2.
+
 
 cross-origin resource sharing (CORS)
+
+
 
 
 
